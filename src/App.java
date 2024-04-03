@@ -29,6 +29,10 @@ public class App {
          */
         int resultado = dataStructuresPrep.subtractAlgorithm(15, 5);
 
+        int resultadoMultiplicacion=dataStructuresPrep.multiplyAlgorithm(5, 3);
+
+        int resultadoDividiendo =dataStructuresPrep.divideWAlgorithm(10, 2  );
+        int reultadofactorial = dataStructuresPrep.getFactorial(5);
         /*
          * Imprimir el resultado de la operación.
          * 
@@ -44,6 +48,10 @@ public class App {
          * parte de mensajes de salida o en lógicas de decisión más complejas.
          */
         System.out.println("El resultado de restar 15 - 5 sin usar el operador de resta es: " + resultado);
+        System.out.println("El resutado de multiplicar 5 * 3 sin usar el opreador de multiplicacion es : "+ resultadoMultiplicacion);
+        System.out.println("El resutado de dividir 10 / 2 sin usar el opreador de la division es : "+ resultadoDividiendo);
+        System.out.println("El resutado de 5!  del factorial es : "+ reultadofactorial);
+
 
     }
 }
